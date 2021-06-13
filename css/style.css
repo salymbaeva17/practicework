@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +20,7 @@ img{
     max-width: 100%;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
     width: 100%;
@@ -37,6 +38,8 @@ img{
     width: 33.3333%;
     padding: 0 15px;
 }
+
+
 .header{
     padding: 31px;
     position: absolute;
@@ -77,9 +80,15 @@ img{
 .header-svg svg:not(:last-child){
     margin-right: 41px;
 }
+
+
 .hero{
     position: relative;
     padding: 218px 296px;
+}
+.hero .container .row .col-6{
+    margin-left: -136px;
+    width: 66%;
 }
 .bg-dog{
     position: absolute;
@@ -99,6 +108,8 @@ img{
 .hero-btns{
     margin-top: 48px;
 }
+
+
 .quality{
     text-align: center;
     padding: 27px 0 5px;
@@ -115,13 +126,14 @@ img{
 }
 .quality-img{
     position: absolute;
-    top: -26.5px;
+    top: -28.5px;
     right: 0;
     left: 0;
     margin: auto;
 }
 .top-quality-img{
-    top: -20px;
+    position: absolute;
+    top: -21.5px;
     left: 0;
     right: 0;
     margin: auto;
@@ -129,7 +141,7 @@ img{
 .quality-svg{
     position: absolute;
     z-index: -1;
-    top: 9px;
+    top: -30px;
     right: 0;
     left: 0;
     margin: auto;
@@ -152,6 +164,8 @@ img{
     line-height: 24px;
     color: #E27B3A;
 }
+
+
 .popular{
     text-align: center;
 }
@@ -168,6 +182,7 @@ img{
     line-height: 24px;
     color: #170C04;
     opacity: 0.6;
+    margin-bottom: 25px;
 }
 .popular-img{
     width: 100%;
@@ -224,6 +239,8 @@ img{
     opacity: 1;
     border: 1px solid #E27B3A;
 }
+
+
 .care{
     padding: 72px 0 30px;
 }
@@ -278,13 +295,13 @@ img{
 .padding-left{
     padding-left: 49px;
 }
+
+
 .subscription{
     padding: 86px 0 120px;
     text-align: center;
 }
-.section-title{
-    font-weight: 500;
-    font-size: 32px;
+.subscription-title{
     line-height: 45px;
     text-align: center;
     color: #170C04;
@@ -318,6 +335,8 @@ img{
     display: inline-block;
     margin-top: 15px;
 }
+
+
 .gallery-box{
     text-align: center;
 }
@@ -367,6 +386,8 @@ img{
     background: rgba(196, 21, 75, 0.1);
     border-radius: 10px;
 }
+
+
 .contact{
     padding: 86px 0  70px;
 }
@@ -425,6 +446,8 @@ img{
     border: none;
     padding: 0 37px;
 }
+
+
 .footer{
     padding: 58px 0 105px;
     background: #140A03;
@@ -459,6 +482,7 @@ img{
 }
 .footer-desc{
     display: flex;
+    align-items: center;
 }
 .footer-desc a{
     color: #E27B3A;
