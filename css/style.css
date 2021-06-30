@@ -39,7 +39,7 @@ img{
     padding: 0 15px;
 }
 
-
+/* Header */
 .header{
     padding: 31px;
     position: absolute;
@@ -80,8 +80,9 @@ img{
 .header-svg svg:not(:last-child){
     margin-right: 41px;
 }
+/* Header */
 
-
+/* Hero */
 .hero{
     position: relative;
     padding: 218px 296px;
@@ -108,8 +109,9 @@ img{
 .hero-btns{
     margin-top: 48px;
 }
+/* Hero */
 
-
+/* Quality */
 .quality{
     text-align: center;
     padding: 27px 0 5px;
@@ -164,8 +166,9 @@ img{
     line-height: 24px;
     color: #E27B3A;
 }
+/* Quality */
 
-
+/* Popular */
 .popular{
     text-align: center;
 }
@@ -182,7 +185,7 @@ img{
     line-height: 24px;
     color: #170C04;
     opacity: 0.6;
-    margin-bottom: 25px;
+    margin: 18px 0 25px;
 }
 .popular-img{
     width: 100%;
@@ -239,8 +242,9 @@ img{
     opacity: 1;
     border: 1px solid #E27B3A;
 }
+/* Popular */
 
-
+/* Care */
 .care{
     padding: 72px 0 30px;
 }
@@ -295,8 +299,9 @@ img{
 .padding-left{
     padding-left: 49px;
 }
+/* Care */
 
-
+/* Subscription*/
 .subscription{
     padding: 86px 0 120px;
     text-align: center;
@@ -335,8 +340,9 @@ img{
     display: inline-block;
     margin-top: 15px;
 }
+/* Subscription*/
 
-
+/* Gallery*/
 .gallery-box{
     text-align: center;
 }
@@ -364,7 +370,6 @@ img{
     object-fit: contain;
     border-radius: 5px;
 }
-
 .first-img{
     background: rgba(144, 10, 8, 0.1);
     padding: 25px 41px 25px 37px;
@@ -386,8 +391,9 @@ img{
     background: rgba(196, 21, 75, 0.1);
     border-radius: 10px;
 }
+/* Gallery*/
 
-
+/* Contact */
 .contact{
     padding: 86px 0  70px;
 }
@@ -446,8 +452,9 @@ img{
     border: none;
     padding: 0 37px;
 }
+/* Contact */
 
-
+/* Footer*/
 .footer{
     padding: 58px 0 105px;
     background: #140A03;
@@ -513,3 +520,4 @@ img{
 .footer-icon:not(:last-child){
     margin-right: 25px;
 }
+/* Footer*/
